@@ -1,7 +1,7 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const Container = styled.div`
-  background-color: #ede9fe;
+  background-color: ${({ theme }) => theme.colors.Orange};
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -34,7 +34,6 @@ export const Button = styled.button`
   justify-content: center;
   align-items: center;
   border: none;
-  color: ;
+
   font-size: 18px;
 `;
-
